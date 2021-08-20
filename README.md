@@ -1,3 +1,3 @@
 Для запуска:
-make setup
-make start
+1: make setup
+2: make start
