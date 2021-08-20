@@ -1,0 +1,186 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 15px;
+    color: #000;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 300;
+    margin: 25px 0;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: normal;
+    margin: 25px 0;
+}
+
+textarea {
+    resize: none;
+}
+
+a {
+    color: #000;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+}
+
+.clearfix::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.header-logo {
+    position: absolute;
+    right: 0;
+    top: 25px;
+}
+
+.header-contact {
+    padding: 25px 0 40px 0;
+}
+
+.header-contact p {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+main {
+    background-color: #eee;
+    background-image: url("../img/line.png");
+    background-repeat: repeat-x;
+    padding: 10px 0 40px 0;
+}
+
+.comments {
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.comment-block {
+    margin: 30px 0;
+}
+
+.comment-info span {
+    display: inline-block;
+}
+
+.comment-name {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    min-width: 70px;
+    padding-right: 20px;
+}
+
+.comment-time,
+.comment-year {
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 300;
+}
+
+.comment-year {
+    padding-left: 10px;
+}
+
+.comment-text {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.form {
+    width: 460px;
+}
+
+.form-label {
+    display: block;
+}
+
+.label-text {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+    display: block;
+    margin: 15px 0;
+}
+
+.form-input {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+    width: 415px;
+    background-color: #eee;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+}
+
+.form-input:focus,
+.form-input:active {
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.btn {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 300;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 15px 20px;
+    background-color: #eee;
+    float: right;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+footer {
+    padding: 15px 0;
+}
+
+.footer-logo {
+    position: absolute;
+}
+
+.footer-contact {
+    padding-left: 140px;
+    padding-top: 15px;
+}
+
+.footer-contact p {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: bold;
+    margin: 9px 0;
+}
+
+.footer-contact .copyright {
+    font-weight: normal;
+    margin-top: 16px;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+    margin-top: 15px;
+}
